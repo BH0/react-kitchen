@@ -5,8 +5,7 @@ import NavbarItem from "./NavbarItem";
 import ScrollableItem from "./ScrollableItem"; 
 // import Hamburger from "./Hamburger"; 
 import PhoneIcon from "../PhoneIcon"; 
-import ReactTooltip from 'react-tooltip'; 
-
+]
 class Navbar extends Component {
     constructor(props) {
         super(props); 
