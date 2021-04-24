@@ -20,7 +20,6 @@ class Bookings extends Component {
         let _booking = {
             name: booking["name"], time: booking["time"], date: booking["date"], size: booking["size"]
         } 
-        console.log(_booking); 
         let _bookings = this.state.bookings.concat(_booking); 
         this.setState({
             bookings: _bookings
@@ -37,7 +36,7 @@ class Bookings extends Component {
                     <HandleBookings handleBooking={this.handleBooking} /> 
                 </div>
                 <div className="bookings" id="bookings">
-                <h1 className="heading title is-4">Your booking/s</h1>
+                <h1 className="heading title">Your booking/s</h1>
                 <table className="table">
                     <thead>
                     <tr>

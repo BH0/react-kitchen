@@ -12,7 +12,7 @@ class HandleBookings extends Component {
       initialValues={{ name: "" }}
       onSubmit={async values => {
         await new Promise(resolve => setTimeout(resolve, 500));
-        alert(JSON.stringify(values, null, 2));
+        // alert(JSON.stringify(values, null, 2));
         let tableSize = null; 
         // in future, make a function to make this code more DRY 
         if (values["table_for_2"] == "on") {
@@ -26,7 +26,6 @@ class HandleBookings extends Component {
         } 
         // values.tableSize = tableSize; 
         values.size = tableSize; 
-        console.log(values); 
         // I believe there is a bug where you have to manually to select a date and time (perhaps this won't be noticible if I had these values as initial values for Formik)
         this.props.handleBooking(values); 
         // send values to parent component 
