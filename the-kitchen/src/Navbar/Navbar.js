@@ -5,7 +5,6 @@ import NavbarItem from "./NavbarItem";
 import ScrollableItem from "./ScrollableItem"; 
 // import Hamburger from "./Hamburger"; 
 import PhoneIcon from "../PhoneIcon"; 
-]
 class Navbar extends Component {
     constructor(props) {
         super(props); 
@@ -54,3 +53,5 @@ class Navbar extends Component {
          );
     }
 }
+
+export default Navbar; 

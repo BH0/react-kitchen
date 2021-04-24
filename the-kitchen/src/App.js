@@ -6,7 +6,6 @@ import {
   } from "react-router-dom";
   import Navbar from "./Navbar/Navbar"; 
   import PhoneIcon from "./PhoneIcon"; 
-  import ReactTooltip from 'react-tooltip'; 
   import Menus from "./Menus/Menus"; 
   import Location from "./Location/Location"; 
   import './App.css';
